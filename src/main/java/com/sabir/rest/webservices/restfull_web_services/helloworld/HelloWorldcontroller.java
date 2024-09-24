@@ -21,7 +21,7 @@ public class HelloWorldcontroller {
 
     @RequestMapping("/hello")
     public String helloWorld() {
-        return "Hello World ! ";
+        return "Hello World ! Welcome to my Java ";
     }
 
     @RequestMapping("/hello-international")
